@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>MSR | Full Stack Developer</title>
+  <meta name="title" content="MSR | Full Stack Developer">
+  <meta name="description" content="Official portfolio of Soundhararajan Muthuvel (MSR), Full Stack Developer, Shopify Developer, WordPress Expert, ERP Architect, SaaS Builder, and Business Automation Specialist from Tamil Nadu, India.">
+  <meta name="keywords" content="Soundhararajan Muthuvel, Soundhararajan, MSR, MSR Developer, Full Stack Developer, Shopify Developer, WordPress Developer, ERP Developer, SaaS Developer, React Developer, Node.js Developer, Software Developer Tamil Nadu, Shopify Developer Tamil Nadu, ERP Developer Tamil Nadu">
+  <meta name="author" content="Soundhararajan Muthuvel (MSR)">
+  <link rel="canonical" href="https://msr.dev/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://msr.dev/">
+  <meta property="og:title" content="MSR | Full Stack Developer">
+  <meta property="og:description" content="Official portfolio of Soundhararajan Muthuvel (MSR), Full Stack Developer, Shopify Developer, WordPress Expert, ERP Architect, SaaS Builder, and Business Automation Specialist from Tamil Nadu, India.">
+  <meta property="og:image" content="assets/images/msr-portrait.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://msr.dev/">
+  <meta property="twitter:title" content="MSR | Full Stack Developer">
+  <meta property="twitter:description" content="Official portfolio of Soundhararajan Muthuvel (MSR), Full Stack Developer, Shopify Developer, WordPress Expert, ERP Architect, SaaS Builder, and Business Automation Specialist from Tamil Nadu, India.">
+  <meta property="twitter:image" content="assets/images/msr-portrait.png">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Lucide Icons for clean tech icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- GSAP & GSAP ScrollTrigger for world-class animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <!-- Structured Schema Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Soundhararajan Muthuvel",
+      "alternateName": "MSR",
+      "jobTitle": "Full Stack Developer & ERP Architect",
+      "description": "Full Stack Developer, ERP Architect, Shopify Developer, WordPress Developer, SaaS Builder. Specializing in enterprise solutions and custom development.",
+      "image": "assets/images/msr-portrait.png",
+      "url": "https://msr.dev/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "India"
+      },
+      "sameAs": [
+        "https://github.com/",
+        "https://linkedin.com/",
+        "https://instagram.com/"
+      ]
+    }
+  </script>
+</head>
+<body>
+
+  <!-- --- PREMIUM LOADING SCREEN --- -->
+  <div class="loading-screen" id="loader">
+    <div class="loading-logo">MSR<span>.</span></div>
+    <div class="loading-bar-container">
+      <div class="loading-bar" id="load-bar"></div>
+    </div>
+    <div class="loading-text" id="load-text">0%</div>
+  </div>
+
+  <!-- --- BACKGROUND PARTICLE CANVAS --- -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- --- FIXED GLASS NAVIGATION BAR --- -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">MSR<span>.</span></a>
+      
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#seo-deepdive">Deep Dives</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">Let's Talk</a>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- --- HERO SECTION --- -->
+  <section id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="accent-tag">Available for Projects</div>
+        <h1 class="text-glow">Soundhararajan <br><span class="text-gradient">Muthuvel</span></h1>
+        <h3>Full Stack Developer | Shopify Developer | WordPress Developer | ERP Architect</h3>
+        <p>Building modern ERP systems, SaaS platforms, Shopify stores, WordPress solutions, CRM applications, and business automation tools that help companies grow faster.</p>
+        
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">View Projects <i data-lucide="arrow-right"></i></a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          <a href="#contact" class="btn btn-accent" id="download-resume-btn">Download Resume <i data-lucide="download"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="hero-portrait-frame">
+          <div class="portrait-inner">
+            <img src="assets/images/msr-portrait.png" alt="Soundhararajan Muthuvel" class="portrait-img">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#stats" class="scroll-indicator">
+      <span></span>
+      Scroll
+    </a>
+  </section>
+
+  <!-- --- STATS SECTION --- -->
+  <section id="stats">
+    <div class="container">
+      <div class="stats-grid glass-panel">
+        <div class="stat-card">
+          <div class="stat-number" data-target="50">0</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">Features Delivered</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="1000">0</div>
+          <div class="stat-label">Development Hours</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="12">0</div>
+          <div class="stat-label">ERP & SaaS Solutions</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- ABOUT SECTION --- -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="accent-tag">Profile</span>
+        <h2>About Soundhararajan Muthuvel</h2>
+      </div>
+      
+      <div class="about-box glass-panel glow-card">
+        <span class="quote-decor open">“</span>
+        <p>I am a Full Stack Developer specializing in ERP systems, Shopify development, WordPress solutions, SaaS products, CRM applications, and business automation platforms. I build scalable software that solves real-world business problems and improves operational efficiency.</p>
+        <span class="quote-decor close">”</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- SERVICES SECTION --- -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="accent-tag">Capabilities</span>
+        <h2>Services Offered</h2>
+        <p>Providing high-end technical architectures, clean structures, and performance-tuned e-commerce storefronts.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- 1: Shopify Development -->
+        <div class="service-card glass-panel glow-card">
+          <div class="service-icon"><i data-lucide="shopping-bag"></i></div>
+          <h3>Shopify Development</h3>
+          <p>Custom Liquid theme coding, API integrations, speed optimizations, and headless commerce architectures built to maximize conversion rates.</p>
+        </div>
+
+        <!-- 2: WordPress Development -->
+        <div class="service-card glass-panel glow-card">
+          <div class="service-icon"><i data-lucide="layout-template"></i></div>
+          <h3>WordPress Development</h3>
+          <p>Bespoke theme layouts, custom Gutenberg blocks, complex WooCommerce configurations, and secure hosting deployments.</p>
+        </div>
+
+        <!-- 3: ERP Development -->
+        <div class="service-card glass-panel glow-card">
+          <div class="service-icon"><i data-lucide="layers"></i></div>
+          <h3>ERP Development</h3>
+          <p>Custom modular ERP solutions handling inventory tracking, warehouse logistics, payroll accounting, billing, and production runs.</p>
+        </div>
+
+        <!-- 4: SaaS Development -->
+        <div class="service-card glass-panel glow-card">
+          <div class="service-icon"><i data-lucide="cloud"></i></div>
+          <h3>SaaS Development</h3>
+          <p>Multi-tenant architectures, subscription systems, custom user roles, security audits, and cloud-hosted application designs.</p>
+        </div>
+
+        <!-- 5: CRM Development -->
+        <div class="service-card glass-panel glow-card">
+          <div class="service-icon"><i data-lucide="users-2"></i></div>
+          <h3>CRM Development</h3>
+          <p>Customer relationship management modules with custom pipelines, automatic email alerts, schedule timelines, and lead logging.</p>
+        </div>
+
+        <!-- 6: Business Automation -->
+        <div class="service-card glass-panel glow-card">
+          <div class="service-icon"><i data-lucide="cpu"></i></div>
+          <h3>Business Automation</h3>
+          <p>Automating redundant actions, setting up webhooks, triggering database synchronization, and deploying custom bots.</p>
+        </div>
+
+        <!-- 7: API Integration -->
+        <div class="service-card glass-panel glow-card">
+          <div class="service-icon"><i data-lucide="git-merge"></i></div>
+          <h3>API Integration</h3>
+          <p>Connecting platforms (payment networks, logistics, ERPs, CRM platforms) via clean RESTful APIs and secure webhooks.</p>
+        </div>
+
+        <!-- 8: Web Application Development -->
+        <div class="service-card glass-panel glow-card">
+          <div class="service-icon"><i data-lucide="code-2"></i></div>
+          <h3>Web App Development</h3>
+          <p>Bespoke web applications created with modular React frontends, robust Node.js backends, and lightning-fast database layouts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- SKILLS SECTION --- -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="accent-tag">Expertise</span>
+        <h2>Skills & Core Focus</h2>
+        <p>A breakdown of technical specialties, frameworks, databases, and digital platforms.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skills-card glass-panel glow-card">
+          <h3><i data-lucide="layout"></i> Frontend</h3>
+          <div class="skills-list">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">Tailwind CSS</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skills-card glass-panel glow-card">
+          <h3><i data-lucide="server"></i> Backend</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express.js</span>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skills-card glass-panel glow-card">
+          <h3><i data-lucide="database"></i> Database</h3>
+          <div class="skills-list">
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">SQLite</span>
+            <span class="skill-tag">MySQL</span>
+          </div>
+        </div>
+
+        <!-- Platforms -->
+        <div class="skills-card glass-panel glow-card">
+          <h3><i data-lucide="globe"></i> Platforms</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Shopify</span>
+            <span class="skill-tag">WordPress</span>
+            <span class="skill-tag">WooCommerce</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skills-card glass-panel glow-card">
+          <h3><i data-lucide="sliders"></i> Tools</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+        </div>
+
+        <!-- Specializations -->
+        <div class="skills-card glass-panel glow-card">
+          <h3><i data-lucide="star"></i> Specialities</h3>
+          <div class="skills-list">
+            <span class="skill-tag">ERP Architecture</span>
+            <span class="skill-tag">SaaS Design</span>
+            <span class="skill-tag">Shopify Liquid</span>
+            <span class="skill-tag">WooCommerce Sync</span>
+            <span class="skill-tag">Process Automation</span>
+            <span class="skill-tag">Core Web Vitals</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FEATURED PROJECTS SHOWCASE (CASE STUDIES WITH CAROUSEL SLIDERS) --- -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="accent-tag">Case Studies</span>
+        <h2>Featured Projects</h2>
+        <p>Real-world software products, ERP architectures, and optimized e-commerce solutions displaying actual screenshots.</p>
+      </div>
+
+      <div class="projects-list">
+        
+        <!-- Case Study 1: AO ERP -->
+        <div class="project-case-study glass-panel glow-card" id="case-ao-erp">
+          <div class="project-details-pane">
+            <div class="project-meta-top">
+              <span class="accent-tag" style="margin-bottom:0;">Enterprise ERP</span>
+            </div>
+            <h3 class="project-case-title">AO ERP</h3>
+            <p class="project-case-desc">An advanced, custom-built Enterprise Resource Planning platform. It streamlines production schedules, manages warehouse inventory levels, logs financial records, and hosts automated crm leads.</p>
+            
+            <div class="project-features-box">
+              <h4>Key Features</h4>
+              <ul class="project-features-grid">
+                <li>Inventory Tracking</li>
+                <li>Production Schedules</li>
+                <li>CRM Modules</li>
+                <li>Billing Ledgers</li>
+                <li>Purchase log syncing</li>
+                <li>Real-time Dashboard</li>
+              </ul>
+            </div>
+
+            <div class="project-results-box">
+              <h4>Results & Achievements</h4>
+              <p>Replaced multiple legacy systems into a single relational database. Reduced manual warehouse entries and synchronized production schedules instantly, yielding a 30% reduction in lead execution times.</p>
+            </div>
+
+            <div class="project-tech-pills">
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">Node.js</span>
+              <span class="tech-pill">SQLite</span>
+              <span class="tech-pill">Express.js</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn btn-primary">View Project</a>
+              <button class="btn btn-secondary open-gallery-btn">View Screenshots</button>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+
+          <!-- Carousel occupies 70%-80% area -->
+          <div class="project-gallery-pane" data-current-slide="0">
+            <div class="gallery-carousel-viewport">
+              <div class="gallery-carousel-track">
+                <div class="gallery-slide"><img src="assets/images/ao-erp/ao-erp-1.png" alt="AO ERP Screenshot 1"><div class="gallery-caption">Inventory Overview</div></div>
+                <div class="gallery-slide"><img src="assets/images/ao-erp/ao-erp-2.png" alt="AO ERP Screenshot 2"><div class="gallery-caption">Production Management</div></div>
+                <div class="gallery-slide"><img src="assets/images/ao-erp/ao-erp-3.png" alt="AO ERP Screenshot 3"><div class="gallery-caption">Billing Ledger</div></div>
+                <div class="gallery-slide"><img src="assets/images/ao-erp/ao-erp-4.png" alt="AO ERP Screenshot 4"><div class="gallery-caption">Purchase Management</div></div>
+                <div class="gallery-slide"><img src="assets/images/ao-erp/ao-erp-5.png" alt="AO ERP Screenshot 5"><div class="gallery-caption">CRM Pipelines</div></div>
+                <div class="gallery-slide"><img src="assets/images/ao-erp/ao-erp-6.png" alt="AO ERP Screenshot 6"><div class="gallery-caption">Analytical Dashboard</div></div>
+              </div>
+            </div>
+            <button class="gallery-arrow left-arrow" aria-label="Previous image"><i data-lucide="chevron-left"></i></button>
+            <button class="gallery-arrow right-arrow" aria-label="Next image"><i data-lucide="chevron-right"></i></button>
+            <div class="gallery-bullets"></div>
+          </div>
+        </div>
+
+        <!-- Case Study 2: Sales Force Automation -->
+        <div class="project-case-study glass-panel glow-card" id="case-sfa">
+          <div class="project-details-pane">
+            <div class="project-meta-top">
+              <span class="accent-tag" style="margin-bottom:0;">Mobile Product</span>
+            </div>
+            <h3 class="project-case-title">Sales Force Automation</h3>
+            <p class="project-case-desc">A comprehensive mobile-first sales division system. Built to enable team attendance tracking, customer visit schedules, map routing, order collection logs, and sales statistics.</p>
+            
+            <div class="project-features-box">
+              <h4>Key Features</h4>
+              <ul class="project-features-grid">
+                <li>Attendance Logging</li>
+                <li>Route Management</li>
+                <li>Lead Collection</li>
+                <li>Order Collection</li>
+                <li>Performance Reports</li>
+                <li>Offline Sync Engine</li>
+              </ul>
+            </div>
+
+            <div class="project-results-box">
+              <h4>Results & Achievements</h4>
+              <p>Optimized route mapping algorithms saved sales teams average travel distances. The automated order-sync pipeline eliminated delivery errors and streamlined inventory allocation logs.</p>
+            </div>
+
+            <div class="project-tech-pills">
+              <span class="tech-pill">Node.js</span>
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">MongoDB</span>
+              <span class="tech-pill">REST APIs</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn btn-primary">View Project</a>
+              <button class="btn btn-secondary open-gallery-btn">View Screenshots</button>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="project-gallery-pane" data-current-slide="0">
+            <div class="gallery-carousel-viewport">
+              <div class="gallery-carousel-track">
+                <div class="gallery-slide"><img src="assets/images/sfa/sfa-1.png" alt="Sales Force Automation Screenshot 1"><div class="gallery-caption">Dashboard Interface</div></div>
+                <div class="gallery-slide"><img src="assets/images/sfa/sfa-2.png" alt="Sales Force Automation Screenshot 2"><div class="gallery-caption">GPS Route Tracker</div></div>
+                <div class="gallery-slide"><img src="assets/images/sfa/sfa-3.png" alt="Sales Force Automation Screenshot 3"><div class="gallery-caption">Order Collection Ledger</div></div>
+              </div>
+            </div>
+            <button class="gallery-arrow left-arrow" aria-label="Previous image"><i data-lucide="chevron-left"></i></button>
+            <button class="gallery-arrow right-arrow" aria-label="Next image"><i data-lucide="chevron-right"></i></button>
+            <div class="gallery-bullets"></div>
+          </div>
+        </div>
+
+        <!-- Case Study 3: Money Tracker -->
+        <div class="project-case-study glass-panel glow-card" id="case-money">
+          <div class="project-details-pane">
+            <div class="project-meta-top">
+              <span class="accent-tag" style="margin-bottom:0;">FinTech System</span>
+            </div>
+            <h3 class="project-case-title">Money Tracker</h3>
+            <p class="project-case-desc">A personal finance planning and goal monitoring tool. It provides automatic expense tracking, budget settings, savings targets, and descriptive accounting reports.</p>
+            
+            <div class="project-features-box">
+              <h4>Key Features</h4>
+              <ul class="project-features-grid">
+                <li>Expense Audits</li>
+                <li>Savings Targets</li>
+                <li>Budget Parameters</li>
+                <li>Financial Reports</li>
+                <li>Interactive charts</li>
+                <li>PDF/CSV Exports</li>
+              </ul>
+            </div>
+
+            <div class="project-results-box">
+              <h4>Results & Achievements</h4>
+              <p>Allows users to gain granular control over cash flows. Visual charts and alerts reduce average unnecessary expenditures by 15% within the first two months of deployment.</p>
+            </div>
+
+            <div class="project-tech-pills">
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">SQLite</span>
+              <span class="tech-pill">Express.js</span>
+              <span class="tech-pill">ChartJS</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn btn-primary">View Project</a>
+              <button class="btn btn-secondary open-gallery-btn">View Screenshots</button>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="project-gallery-pane" data-current-slide="0">
+            <div class="gallery-carousel-viewport">
+              <div class="gallery-carousel-track">
+                <div class="gallery-slide"><img src="assets/images/money/money-1.png" alt="Money Tracker Screenshot 1"><div class="gallery-caption">Financial Summary</div></div>
+                <div class="gallery-slide"><img src="assets/images/money/money-2.png" alt="Money Tracker Screenshot 2"><div class="gallery-caption">Expense Categories</div></div>
+                <div class="gallery-slide"><img src="assets/images/money/money-3.png" alt="Money Tracker Screenshot 3"><div class="gallery-caption">Target Logs</div></div>
+              </div>
+            </div>
+            <button class="gallery-arrow left-arrow" aria-label="Previous image"><i data-lucide="chevron-left"></i></button>
+            <button class="gallery-arrow right-arrow" aria-label="Next image"><i data-lucide="chevron-right"></i></button>
+            <div class="gallery-bullets"></div>
+          </div>
+        </div>
+
+        <!-- Case Study 4: Shopify Store Development -->
+        <div class="project-case-study glass-panel glow-card" id="case-shopify">
+          <div class="project-details-pane">
+            <div class="project-meta-top">
+              <span class="accent-tag" style="margin-bottom:0;">E-Commerce Channel</span>
+            </div>
+            <h3 class="project-case-title">Shopify Development</h3>
+            <p class="project-case-desc">Bespoke store setups, custom theme development, Shopify Liquid modifications, e-commerce workflow sync, and Core Web Vitals speed tuning.</p>
+            
+            <div class="project-features-box">
+              <h4>Key Features</h4>
+              <ul class="project-features-grid">
+                <li>Theme Coding (Liquid)</li>
+                <li>SEO Performance tuning</li>
+                <li>App Integrations</li>
+                <li>Custom Checkout rules</li>
+                <li>API sync bridges</li>
+                <li>Responsive Templates</li>
+              </ul>
+            </div>
+
+            <div class="project-results-box">
+              <h4>Results & Achievements</h4>
+              <p>Re-coded standard template layouts, raising average Google Lighthouse metrics to 90+. Speed improvements resulted in conversion increases and drop-off reductions.</p>
+            </div>
+
+            <div class="project-tech-pills">
+              <span class="tech-pill">Shopify Liquid</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">HTML5 / CSS3</span>
+              <span class="tech-pill">Tailwind CSS</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn btn-primary">View Project</a>
+              <button class="btn btn-secondary open-gallery-btn">View Screenshots</button>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="project-gallery-pane" data-current-slide="0">
+            <div class="gallery-carousel-viewport">
+              <div class="gallery-carousel-track">
+                <div class="gallery-slide"><img src="assets/images/shopify/shopify-1.png" alt="Shopify Development Screenshot 1"><div class="gallery-caption">Custom Store Layout</div></div>
+                <div class="gallery-slide"><img src="assets/images/shopify/shopify-2.png" alt="Shopify Development Screenshot 2"><div class="gallery-caption">Mobile Product Page</div></div>
+              </div>
+            </div>
+            <button class="gallery-arrow left-arrow" aria-label="Previous image"><i data-lucide="chevron-left"></i></button>
+            <button class="gallery-arrow right-arrow" aria-label="Next image"><i data-lucide="chevron-right"></i></button>
+            <div class="gallery-bullets"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- --- EXPERIENCE SECTION --- -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="accent-tag">Chronology</span>
+        <h2>Experience</h2>
+        <p>A history of building scalable solutions, designing architectures, and consultation.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Item 1: Full Stack Developer -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-panel glow-card">
+            <span class="timeline-date">Present</span>
+            <h3 class="timeline-title">Full Stack Developer</h3>
+            <div class="timeline-company">Software, ERP & SaaS Engineering</div>
+            
+            <div class="timeline-block">
+              <h4>Key Achievements</h4>
+              <ul class="timeline-details">
+                <li>Architected and launched custom modular ERP platform with real-time analytics.</li>
+                <li>Built mobile-first Sales Force Automation system with route tracking and offline sync.</li>
+                <li>Developed automated personal finance planners and conversion-optimized Shopify/WooCommerce stores.</li>
+              </ul>
+            </div>
+            
+            <div class="timeline-block">
+              <h4>Skills & Technologies</h4>
+              <div class="timeline-techs">
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">Next.js</span>
+                <span class="tech-pill">SQLite</span>
+                <span class="tech-pill">Express</span>
+                <span class="tech-pill">MongoDB</span>
+                <span class="tech-pill">Shopify</span>
+                <span class="tech-pill">Tailwind CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Technology Consultant -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-panel glow-card">
+            <span class="timeline-date">Consultancy</span>
+            <h3 class="timeline-title">Technology Consultant</h3>
+            <div class="timeline-company">Process Optimization & Transformation</div>
+            
+            <div class="timeline-block">
+              <h4>Key Achievements</h4>
+              <ul class="timeline-details">
+                <li>Guided workflows optimization for business divisions, reducing lead execution times by 30%.</li>
+                <li>Drafted software architectures for distributed services and cloud integrations.</li>
+                <li>Created custom API integration bridges linking third-party accounting and inventory modules.</li>
+              </ul>
+            </div>
+            
+            <div class="timeline-block">
+              <h4>Skills & Technologies</h4>
+              <div class="timeline-techs">
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">REST APIs</span>
+                <span class="tech-pill">Git</span>
+                <span class="tech-pill">GitHub</span>
+                <span class="tech-pill">WooCommerce</span>
+                <span class="tech-pill">Process Automation</span>
+                <span class="tech-pill">Webhooks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- DEDICATED SEO LANDING SECTIONS --- -->
+  <section id="seo-deepdive" class="seo-showcase">
+    <div class="container">
+      <div class="section-header">
+        <span class="accent-tag">Search Landing Profiles</span>
+        <h2>Developer Insights</h2>
+        <p>Select a profile to read in-depth details of technical solutions, architectures, and e-commerce growth metrics.</p>
+      </div>
+
+      <div class="seo-tabs-container">
+        <!-- Tab Headers -->
+        <div class="seo-tabs">
+          <button class="seo-tab-btn active" data-tab="shopify-dev">Shopify Developer</button>
+          <button class="seo-tab-btn" data-tab="wordpress-dev">WordPress Developer</button>
+          <button class="seo-tab-btn" data-tab="erp-dev">ERP Developer</button>
+          <button class="seo-tab-btn" data-tab="fullstack-dev">Full Stack Developer</button>
+          <button class="seo-tab-btn" data-tab="saas-dev">SaaS Developer</button>
+        </div>
+
+        <!-- Tab Panes -->
+        <div class="seo-tab-contents">
+          
+          <!-- Shopify Developer Tamil Nadu -->
+          <div class="seo-tab-pane active" id="shopify-dev">
+            <div class="seo-pane-card glass-panel glow-card">
+              <div class="seo-pane-grid">
+                <div class="seo-pane-text">
+                  <h3>Shopify Developer Tamil Nadu</h3>
+                  <p>In the digital-first retail landscape, having a standard storefront is no longer enough to scale. As a specialized <strong>Shopify Developer in Tamil Nadu</strong>, I construct high-performance e-commerce solutions that bridge the gap between aesthetic product design and rapid transaction speeds. My development methodology focuses on optimizing Shopify Liquid file structures, minimizing unnecessary app scripts that load before the page paints, and deploying custom headless structures using React frameworks like Next.js or Shopify Hydrogen.</p>
+                  <p>Whether you need a custom store layout created from scratch in Chennai or conversion optimization for an enterprise catalog in Coimbatore, I build themes with modular architectures. By restructuring theme scripts, setting up lazy loading for visual media assets, and applying Shopify's latest section designs, I consistently raise store speed scores, which directly increases conversion percentages and Google search rankings.</p>
+                  
+                  <h4>Technical Focus Area:</h4>
+                  <ul class="seo-pane-list">
+                    <li><i data-lucide="check-circle-2"></i> Custom theme coding utilizing Liquid, JSON schemas, JavaScript, and Tailwind CSS.</li>
+                    <li><i data-lucide="check-circle-2"></i> Custom Shopify Application development via Node.js/React and GraphQL Admin APIs.</li>
+                    <li><i data-lucide="check-circle-2"></i> Checkout flow optimizations and custom script actions to capture maximum sales.</li>
+                    <li><i data-lucide="check-circle-2"></i> Inventory sync hooks linking Shopify Webhooks directly to local ERP databases.</li>
+                  </ul>
+                  
+                  <p>I focus on Core Web Vitals to guarantee your online store is mobile-first, fully responsive, and accessible. In e-commerce, every 100ms of lag reduces conversion rates by up to 7%. My Shopify optimization service ensures that your pages load in under 1.5 seconds, providing your shoppers with a frictionless checkout journey.</p>
+                </div>
+                <div class="seo-pane-sidebar">
+                  <div class="stats-side-card glass-panel">
+                    <h3>Developer Stats</h3>
+                    <div class="stats-side-grid">
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">50+</span>
+                        <span class="stats-side-lbl">Projects Built</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">12+</span>
+                        <span class="stats-side-lbl">Technologies</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">5+ Yrs</span>
+                        <span class="stats-side-lbl">Experience</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">12</span>
+                        <span class="stats-side-lbl">ERP & SaaS</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- WordPress Developer Tamil Nadu -->
+          <div class="seo-tab-pane" id="wordpress-dev">
+            <div class="seo-pane-card glass-panel glow-card">
+              <div class="seo-pane-grid">
+                <div class="seo-pane-text">
+                  <h3>WordPress Developer Tamil Nadu</h3>
+                  <p>WordPress drives over 40% of all websites on the internet. However, bloated commercial templates often load dozens of unused CSS assets and slow down business growth. As a professional <strong>WordPress Developer in Tamil Nadu</strong>, I specialize in coding bespoke, lightweight themes and custom Gutenberg block ecosystems. This approach ensures your marketing and sales channels load quickly and remain highly discoverable by Google index spiders.</p>
+                  <p>My work eliminates heavy page builders like Elementor or WPBakery in favor of native block editors and modular templates. By writing clean PHP code, setting up custom post types, and structuring relational fields using ACF, I build websites that business owners can edit easily without breaking the structural layout. Furthermore, I customize WooCommerce builds to support complex checkout workflows, subscription rules, and automatic tax calculations tailored for Indian and international markets.</p>
+                  
+                  <h4>Technical Focus Area:</h4>
+                  <ul class="seo-pane-list">
+                    <li><i data-lucide="check-circle-2"></i> Bespoke, lightweight PHP theme templates built without heavy page builder bloat.</li>
+                    <li><i data-lucide="check-circle-2"></i> Custom Gutenberg block extensions written using React components.</li>
+                    <li><i data-lucide="check-circle-2"></i> WooCommerce configuration, custom filters, cart overrides, and performance tuning.</li>
+                    <li><i data-lucide="check-circle-2"></i> Secure server hosting configurations, asset caching rules, and CDN integration.</li>
+                  </ul>
+                  
+                  <p>In addition to theme development, I set up headless WordPress systems where WordPress serves as a RESTful backend API while a Next.js framework renders a fast, static frontend. This gives enterprise clients the editing comfort of a familiar admin dashboard alongside the speed and security of a modern headless stack.</p>
+                </div>
+                <div class="seo-pane-sidebar">
+                  <div class="stats-side-card glass-panel">
+                    <h3>Developer Stats</h3>
+                    <div class="stats-side-grid">
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">50+</span>
+                        <span class="stats-side-lbl">Projects Built</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">12+</span>
+                        <span class="stats-side-lbl">Technologies</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">5+ Yrs</span>
+                        <span class="stats-side-lbl">Experience</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">12</span>
+                        <span class="stats-side-lbl">ERP & SaaS</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ERP Developer Tamil Nadu -->
+          <div class="seo-tab-pane" id="erp-dev">
+            <div class="seo-pane-card glass-panel glow-card">
+              <div class="seo-pane-grid">
+                <div class="seo-pane-text">
+                  <h3>ERP Developer Tamil Nadu</h3>
+                  <p>Off-the-shelf ERP platforms are often expensive and loaded with modules that your business will never use. As a dedicated <strong>ERP Developer in Tamil Nadu</strong>, I write custom Enterprise Resource Planning software tailored to your specific organizational workflows. I design database tables and write controllers for manufacturing scheduling, live inventory tracking, payroll ledger accounting, CRM pipelines, and analytical reporting.</p>
+                  <p>By building systems on lightweight, robust frameworks like React, Node.js, and relational SQL engines, my applications remain accessible from any mobile or desktop browser without requiring laggy desktop clients. These custom ERPs allow businesses in Chennai, Madurai, or Coimbatore to scale their operations, automate manual sheet updates, and make decisions based on real-time data insights.</p>
+                  
+                  <h4>Technical Focus Area:</h4>
+                  <ul class="seo-pane-list">
+                    <li><i data-lucide="check-circle-2"></i> Real-time inventory tracking systems with automated low-stock warnings.</li>
+                    <li><i data-lucide="check-circle-2"></i> Manufacturing scheduling engines showing raw material needs and step phases.</li>
+                    <li><i data-lucide="check-circle-2"></i> Structured accounting ledgers, automatic invoicing engines, and billing metrics.</li>
+                    <li><i data-lucide="check-circle-2"></i> Custom dashboards showing real-time production stats and charts.</li>
+                  </ul>
+                  
+                  <p>I pay close attention to data structure and indexing to ensure query runtimes remain under 50ms, even with millions of warehouse records. Each ERP system is built with high-fidelity security protocols, encrypted logs, and custom user-permissions, ensuring your business data is protected at all times.</p>
+                </div>
+                <div class="seo-pane-sidebar">
+                  <div class="stats-side-card glass-panel">
+                    <h3>Developer Stats</h3>
+                    <div class="stats-side-grid">
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">50+</span>
+                        <span class="stats-side-lbl">Projects Built</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">12+</span>
+                        <span class="stats-side-lbl">Technologies</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">5+ Yrs</span>
+                        <span class="stats-side-lbl">Experience</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">12</span>
+                        <span class="stats-side-lbl">ERP & SaaS</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Full Stack Developer Tamil Nadu -->
+          <div class="seo-tab-pane" id="fullstack-dev">
+            <div class="seo-pane-card glass-panel glow-card">
+              <div class="seo-pane-grid">
+                <div class="seo-pane-text">
+                  <h3>Full Stack Developer Tamil Nadu</h3>
+                  <p>Building scalable web applications requires a deep understanding of both clean UI engineering and robust server-side architecture. As a professional <strong>Full Stack Developer in Tamil Nadu</strong>, I build end-to-end applications using the modern JavaScript ecosystem. I combine fast, modular React and Next.js frontends with secure Node.js/Express server backends, database layers, and third-party API configurations.</p>
+                  <p>My approach decodes complex business requirements into clean, manageable code structures. By separating front-end layouts from backend APIs, I ensure that application modules remain isolated, testable, and easy to scale. From setting up JSON Web Token authorization schemas to configuring MongoDB and SQL databases, I ensure your application scales smoothly from 100 to 100,000 active users.</p>
+                  
+                  <h4>Technical Focus Area:</h4>
+                  <ul class="seo-pane-list">
+                    <li><i data-lucide="check-circle-2"></i> Decoupled React frontends and static Next.js pages for fast user interaction.</li>
+                    <li><i data-lucide="check-circle-2"></i> Secure Node.js server design with express routing, rate limiting, and CORS safety.</li>
+                    <li><i data-lucide="check-circle-2"></i> Relational database indexing (MySQL/SQLite) and flexible document schemas (MongoDB).</li>
+                    <li><i data-lucide="check-circle-2"></i> Cloud architecture setup, custom server deployment, and Docker container integration.</li>
+                  </ul>
+                  
+                  <p>By utilizing ES6 practices, writing comprehensive API logs, and optimizing backend queries, I build web software that delivers smooth user experiences. Whether you are launching a new startup MVP or upgrading an existing enterprise system, my full-stack engineering delivers clean, scalable code built to last.</p>
+                </div>
+                <div class="seo-pane-sidebar">
+                  <div class="stats-side-card glass-panel">
+                    <h3>Developer Stats</h3>
+                    <div class="stats-side-grid">
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">50+</span>
+                        <span class="stats-side-lbl">Projects Built</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">12+</span>
+                        <span class="stats-side-lbl">Technologies</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">5+ Yrs</span>
+                        <span class="stats-side-lbl">Experience</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">12</span>
+                        <span class="stats-side-lbl">ERP & SaaS</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SaaS Developer Tamil Nadu -->
+          <div class="seo-tab-pane" id="saas-dev">
+            <div class="seo-pane-card glass-panel glow-card">
+              <div class="seo-pane-grid">
+                <div class="seo-pane-text">
+                  <h3>SaaS Developer Tamil Nadu</h3>
+                  <p>Software-as-a-Service (SaaS) products require a specific design focus that prioritizes multi-tenant database safety, secure subscription billing, and customizable user role permissions. As a skilled <strong>SaaS Developer in Tamil Nadu</strong>, I help startups and businesses plan, build, and deploy multi-user cloud platforms. I configure subscription systems, billing webhooks, custom workspaces, and automated workflow triggers.</p>
+                  <p>My SaaS development workflow prioritizes modularity and security. I design database tables with tenant isolation filters, ensuring that users can only view their own organization's data. I build interactive workspaces where managers can configure custom permission roles, invite team members, and view usage statistics via clean dashboards and charts.</p>
+                  
+                  <h4>Technical Focus Area:</h4>
+                  <ul class="seo-pane-list">
+                    <li><i data-lucide="check-circle-2"></i> Tenant database separation patterns using isolated tables or workspace schemas.</li>
+                    <li><i data-lucide="check-circle-2"></i> Subscription billing integration (Stripe, Razorpay) with webhook syncing.</li>
+                    <li><i data-lucide="check-circle-2"></i> Interactive dashboard charts showing live stats, metrics, and logs.</li>
+                    <li><i data-lucide="check-circle-2"></i> Automated workflow engines, background queue workers, and webhook handlers.</li>
+                  </ul>
+                  
+                  <p>I configure systems to handle spike traffic by setting up background queue managers (like BullMQ) and key-value databases (like Redis). This ensures your SaaS application remains fast and responsive, providing your global users with a premium experience at any scale.</p>
+                </div>
+                <div class="seo-pane-sidebar">
+                  <div class="stats-side-card glass-panel">
+                    <h3>Developer Stats</h3>
+                    <div class="stats-side-grid">
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">50+</span>
+                        <span class="stats-side-lbl">Projects Built</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">12+</span>
+                        <span class="stats-side-lbl">Technologies</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">5+ Yrs</span>
+                        <span class="stats-side-lbl">Experience</span>
+                      </div>
+                      <div class="stats-side-item">
+                        <span class="stats-side-val">12</span>
+                        <span class="stats-side-lbl">ERP & SaaS</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- TECH STACK SECTION --- -->
+  <section id="tech-stack">
+    <div class="container">
+      <div class="section-header">
+        <span class="accent-tag">Ecosystem</span>
+        <h2>Interactive Tech Wall</h2>
+        <p>A dynamic look at my primary technologies. Hover to see elements light up.</p>
+      </div>
+
+      <div class="tech-grid">
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="code-2"></i></div>
+          <h4>React</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="layers"></i></div>
+          <h4>Next.js</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="server"></i></div>
+          <h4>Node.js</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="cpu"></i></div>
+          <h4>Express</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="database"></i></div>
+          <h4>MongoDB</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="database"></i></div>
+          <h4>SQLite</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="shopping-bag"></i></div>
+          <h4>Shopify</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="globe"></i></div>
+          <h4>WordPress</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="shopping-cart"></i></div>
+          <h4>WooCommerce</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="layout"></i></div>
+          <h4>Tailwind CSS</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="git-branch"></i></div>
+          <h4>Git</h4>
+        </div>
+        <div class="tech-card glass-panel glow-card">
+          <div class="tech-card-icon"><i data-lucide="github"></i></div>
+          <h4>GitHub</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- ACHIEVEMENTS SECTION --- -->
+  <section id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="accent-tag">Highlights</span>
+        <h2>Key Achievements</h2>
+      </div>
+
+      <div class="achievements-grid">
+        <!-- 1 -->
+        <div class="achievement-card glass-panel glow-card">
+          <div class="achievement-icon"><i data-lucide="layers"></i></div>
+          <h3>ERP Platform Architect</h3>
+          <p>Designed and built modular ERP applications scaling to handle production lines, financial logs, and multi-tenant warehouses.</p>
+        </div>
+
+        <!-- 2 -->
+        <div class="achievement-card glass-panel glow-card">
+          <div class="achievement-icon"><i data-lucide="package"></i></div>
+          <h3>SaaS Product Builder</h3>
+          <p>Created and deployed end-to-end multi-tenant subscription products with interactive dashboards, recurring billing, and live webhooks.</p>
+        </div>
+
+        <!-- 3 -->
+        <div class="achievement-card glass-panel glow-card">
+          <div class="achievement-icon"><i data-lucide="shopping-cart"></i></div>
+          <h3>Shopify Developer</h3>
+          <p>Delivered highly optimized store themes, custom extensions, API sync engines, and performance tune-ups scaling conversion rates.</p>
+        </div>
+
+        <!-- 4 -->
+        <div class="achievement-card glass-panel glow-card">
+          <div class="achievement-icon"><i data-lucide="users"></i></div>
+          <h3>CRM Solution Developer</h3>
+          <p>Built comprehensive contact tracking platforms with marketing pipelines, call notes, lead tracking, and calendar schedules.</p>
+        </div>
+
+        <!-- 5 -->
+        <div class="achievement-card glass-panel glow-card">
+          <div class="achievement-icon"><i data-lucide="zap"></i></div>
+          <h3>Business Automation Specialist</h3>
+          <p>Configured integrations, automated email systems, database sync scripts, and AI tools saving hundreds of labor hours.</p>
+        </div>
+
+        <!-- 6 -->
+        <div class="achievement-card glass-panel glow-card">
+          <div class="achievement-icon"><i data-lucide="code-2"></i></div>
+          <h3>Full Stack Engineer</h3>
+          <p>Fluent across complete project lifecycle - from initial layout mockup to hosting config, database optimization, and REST API structures.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- TESTIMONIALS SECTION --- -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="accent-tag">Endorsements</span>
+        <h2>Client Testimonials</h2>
+        <p>What partners and business owners say about the engineering quality, delivery, and approach.</p>
+      </div>
+
+      <div class="testimonials-slider-container">
+        <div class="testimonials-track" id="testimonials-track">
+          <!-- Slide 1 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-box glass-panel glow-card">
+              <p class="testimonial-quote">"MSR's ability to translate complex manufacturing processes into AO ERP modules was game-changing for our operations. His technical skills in React and Node.js combined with sharp business understanding made project delivery extremely smooth."</p>
+              <div class="testimonial-author-name">Anand Raghavan</div>
+              <div class="testimonial-author-role">Director, Apex Manufacturing</div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-box glass-panel glow-card">
+              <p class="testimonial-quote">"We hired MSR to custom design a Sales Force Automation app, and the order collecting speed increased instantly. The dashboard gives our management complete visibility over routes and leads in real-time. Excellent engineer!"</p>
+              <div class="testimonial-author-name">Sarah Jenkins</div>
+              <div class="testimonial-author-role">COO, Nexus Distribution</div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-box glass-panel glow-card">
+              <p class="testimonial-quote">"Our Shopify store speed was struggling until MSR did an audit and optimization. He customized the checkout logic and theme template perfectly, increasing our sales conversion rate by 22%. A true professional."</p>
+              <div class="testimonial-author-name">Mohamed Al-Fayed</div>
+              <div class="testimonial-author-role">Founder, Aura E-Commerce</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-controls">
+          <button class="control-btn" id="prev-btn" aria-label="Previous testimonial"><i data-lucide="chevron-left"></i></button>
+          <div class="slider-dots" id="slider-dots"></div>
+          <button class="control-btn" id="next-btn" aria-label="Next testimonial"><i data-lucide="chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- CONTACT SECTION (PROMINENT CHANNELS & FORM) --- -->
+  <section id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <div class="section-header" style="text-align: left; margin-bottom: 1.5rem;">
+          <span class="accent-tag">Inquire</span>
+          <h2>Let's Discuss <br>Your Next Project</h2>
+          <p style="margin-top: 0.5rem;">Have a project proposal, custom software request, or consulting inquiry? Connect via direct channels.</p>
+        </div>
+
+        <div class="contact-details-list">
+          <div class="contact-info-card glass-panel glow-card">
+            <div class="contact-icon"><i data-lucide="phone"></i></div>
+            <div class="contact-details">
+              <h3>Phone</h3>
+              <p><a href="tel:+919489430493" style="color: var(--text-white); text-decoration: none; font-weight: 500;">+91 94894 30493</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-card glass-panel glow-card">
+            <div class="contact-icon"><i data-lucide="mail"></i></div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p><a href="mailto:soundhararajanmuthuvel@gmail.com" style="color: var(--text-white); text-decoration: none; font-weight: 500;">soundhararajanmuthuvel@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-card glass-panel glow-card">
+            <div class="contact-icon"><i data-lucide="linkedin"></i></div>
+            <div class="contact-details">
+              <h3>LinkedIn</h3>
+              <p><a href="https://in.linkedin.com/in/soundhararajan-muthuvel-b0889236a" target="_blank" style="color: var(--text-white); text-decoration: none; font-weight: 500;">soundhararajan-muthuvel-b0889236a</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-card glass-panel glow-card">
+            <div class="contact-icon"><i data-lucide="instagram"></i></div>
+            <div class="contact-details">
+              <h3>Instagram</h3>
+              <p><a href="https://www.instagram.com/soundhararajanmuthuvel/" target="_blank" style="color: var(--text-white); text-decoration: none; font-weight: 500;">@soundhararajanmuthuvel</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call Buttons Grid -->
+        <div class="contact-channels-grid">
+          <a href="tel:+919489430493" class="channel-btn channel-call" aria-label="Call MSR"><i data-lucide="phone-call"></i> Call Me</a>
+          <a href="https://wa.me/919489430493?text=Hi%20MSR,%20I'd%20like%20to%20discuss%20a%20project..." target="_blank" class="channel-btn channel-whatsapp" aria-label="WhatsApp"><i data-lucide="message-square"></i> WhatsApp</a>
+          <a href="https://in.linkedin.com/in/soundhararajan-muthuvel-b0889236a" target="_blank" class="channel-btn channel-linkedin" aria-label="LinkedIn"><i data-lucide="linkedin"></i> LinkedIn</a>
+          <a href="https://www.instagram.com/soundhararajanmuthuvel/" target="_blank" class="channel-btn channel-instagram" aria-label="Instagram"><i data-lucide="instagram"></i> Instagram</a>
+          <a href="mailto:soundhararajanmuthuvel@gmail.com" class="channel-btn channel-email" aria-label="Email MSR"><i data-lucide="send"></i> Email</a>
+        </div>
+      </div>
+
+      <div class="contact-form-container glass-panel glow-card">
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <input type="text" id="form-name" class="form-input" placeholder=" " required autocomplete="name">
+            <label for="form-name" class="form-label">Name</label>
+          </div>
+
+          <div class="form-group">
+            <input type="email" id="form-email" class="form-input" placeholder=" " required autocomplete="email">
+            <label for="form-email" class="form-label">Email</label>
+          </div>
+
+          <div class="form-group">
+            <input type="tel" id="form-phone" class="form-input" placeholder=" " autocomplete="tel">
+            <label for="form-phone" class="form-label">Phone (Optional)</label>
+          </div>
+
+          <div class="form-group">
+            <textarea id="form-details" class="form-input" placeholder=" " required autocomplete="off"></textarea>
+            <label for="form-details" class="form-label">Project Details</label>
+          </div>
+
+          <div class="form-buttons">
+            <button type="submit" class="btn btn-primary" id="submit-btn">Send Message <i data-lucide="send"></i></button>
+            <a href="https://wa.me/919489430493?text=Hi%20MSR,%20I'd%20like%20to%20discuss%20a%20project..." target="_blank" class="btn btn-secondary"><i data-lucide="message-square"></i> WhatsApp</a>
+          </div>
+          
+          <div id="form-status" style="margin-top: 1rem; font-size: 0.95rem; display: none;"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Left Column: Brand -->
+        <div class="footer-brand">
+          <h2>Soundhararajan Muthuvel (MSR)</h2>
+          <p class="footer-subtitle">Full Stack Developer | ERP Architect | Shopify Developer</p>
+          <p class="footer-tagline">Building modern high-performance platforms, modular ERP software, SaaS systems, and bespoke e-commerce channels.</p>
+        </div>
+
+        <!-- Center Column: Quick Links -->
+        <div class="footer-links-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-nav">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Right Column: Social Links -->
+        <div class="footer-socials-col">
+          <h3>Social Links</h3>
+          <ul class="footer-social-list">
+            <li><a href="https://in.linkedin.com/in/soundhararajan-muthuvel-b0889236a" target="_blank"><i data-lucide="linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/soundhararajanmuthuvel/" target="_blank"><i data-lucide="instagram"></i> Instagram</a></li>
+            <li><a href="https://github.com/" target="_blank"><i data-lucide="github"></i> GitHub</a></li>
+            <li><a href="https://wa.me/919489430493" target="_blank"><i data-lucide="phone"></i> WhatsApp</a></li>
+            <li><a href="mailto:soundhararajanmuthuvel@gmail.com"><i data-lucide="mail"></i> Email</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Soundhararajan Muthuvel (MSR). All rights reserved. Designed & Engineered with precision.</p>
+        <ul class="footer-links">
+          <li><a href="#hero">Privacy Policy</a></li>
+          <li><a href="#hero">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- --- FULLSCREEN LIGHTBOX MODAL --- -->
+  <div id="lightbox" class="lightbox-modal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close-btn"><i data-lucide="x"></i> Close</button>
+      <img src="" alt="Fullscreen screenshot view" class="lightbox-img" id="lightbox-img-element">
+    </div>
+  </div>
+
+  <!-- Main JavaScript App Controller -->
+  <script src="js/main.js"></script>
+</body>
+</html>
