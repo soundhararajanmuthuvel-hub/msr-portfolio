@@ -1,0 +1,4 @@
+{
+  "buildCommand": "echo 'No compilation required'",
+  "outputDirectory": "."
+}
