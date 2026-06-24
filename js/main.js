@@ -322,10 +322,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }, '-=0.3');
     });
 
-    // Tech wall tags ScrollTrigger
-    gsap.from('.tech-item', {
+    // Tech stack cards ScrollTrigger
+    gsap.from('.tech-card', {
       scrollTrigger: {
-        trigger: '.tech-wall',
+        trigger: '.tech-grid',
         start: 'top 85%'
       },
       opacity: 0,
